@@ -19,7 +19,7 @@ paths:
       summary: Statistics List By Automation Account
       description: Retrieve the statistics for the account.
       operationId: Statistics_ListByAutomationAccount
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftautomationautomationaccountsautomationaccountnamestatistics-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamestatistics-get
       parameters:
       - in: query
         name: $filter

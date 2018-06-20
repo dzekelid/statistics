@@ -1,24 +1,21 @@
 ---
 name: LinkedIn
 x-slug: linkedin
-description: With over 100 million users representing over 200 countries around the
-  world, LinkedIn is a fast-growing professional networking site that allows members
-  to create business contacts, search for jobs, and find potential clients. Individuals
-  have the ability to create their own professional profile that can be viewed by
-  others in their network, and also view the profiles of their own contacts.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+description: 500 million+ members | Manage your professional identity. Build and engage
+  with your professional network. Access knowledge, insights and opportunities.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "31"
 tags: Statistics
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/linkedin/apis.md
 specificationVersion: "0.14"
 apis:
 - name: LinkedIn Get Companies Historical Follow Statistics
   x-api-slug: linkedin
   description: Get companies  historical follow statistics
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1//companies/{id}/historical-follow-statistics
   tags: Companies, , Historical, Follow, Statistics
@@ -28,7 +25,7 @@ apis:
 - name: LinkedIn Get Companies Historical Status Update Statistics
   x-api-slug: linkedin
   description: Get companies  historical status update statistics
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1//companies/{id}/historical-status-update-statistics
   tags: Companies, , Historical, Status, Update, Statistics
@@ -38,7 +35,7 @@ apis:
 - name: LinkedIn Get Companies Company Statistics
   x-api-slug: linkedin
   description: Get companies  company statistics
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1//companies/{id}/company-statistics
   tags: Companies, , Company, Statistics
@@ -47,13 +44,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/linkedin/companiesidcompanystatistics-get-openapi.md
 - name: LinkedIn
   x-api-slug: linkedin
-  description: With over 100 million users representing over 200 countries around
-    the world, LinkedIn is a fast-growing professional networking site that allows
-    members to create business contacts, search for jobs, and find potential clients.
-    Individuals have the ability to create their own professional profile that can
-    be viewed by others in their network, and also view the profiles of their own
-    contacts.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  description: 500 million+ members | Manage your professional identity. Build and
+    engage with your professional network. Access knowledge, insights and opportunities.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1
   tags: Statistics
@@ -71,6 +64,8 @@ x-common:
   url: https://brand.linkedin.com/policies
 - type: x-case-studies
   url: https://developer.linkedin.com/showcase/wordpress
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/linkedin
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/linkedin
 - type: x-developer

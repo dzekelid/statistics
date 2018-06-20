@@ -21,7 +21,7 @@ paths:
       summary: Get Account Stats
       description: Get Account Stats
       operationId: getAccountStats
-      x-api-path-slug: statsjson-get
+      x-api-path-slug: stats-json-get
       parameters:
       - in: query
         name: apiKey
