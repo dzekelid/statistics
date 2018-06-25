@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11179-bure
 x-kinRank: "9"
 x-alexaRank: "64160"
 tags: Statistics
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/bureau-of-economic-analysis/apis.md
 specificationVersion: "0.14"
 apis:

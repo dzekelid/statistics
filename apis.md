@@ -4,7 +4,7 @@ description: This is a repository of statistics APIs, self-contained as a Github
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/statistics.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://statistics.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -28,8 +28,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/iex/apis.yaml
 - name: LinkedIn
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/linkedin/apis.yaml
-- name: Blockchain Info
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/blockchain-info/apis.yaml
+- name: Blockchain
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/blockchain/apis.yaml
 - name: Xignite
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/xignite/apis.yaml
 - name: Xignite
