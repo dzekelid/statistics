@@ -9,38 +9,42 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Statistics
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/aws-simple-email-service/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Simple Email Service API Get Send Statistics
-  x-api-slug: aws-simple-email-service-api
+- name: AWS Simple Email Service API - Get Send Statistics
+  x-api-slug: actiongetsendstatistics-get
   description: Returns the user's sending statistics.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
   humanURL: https://aws.amazon.com/ses/
-  baseURL: ://///?Action=GetSendStatistics
-  tags: Send Statistics
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/aws-simple-email-service/actiongetsendstatistics-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/aws-simple-email-service/actiongetsendstatistics-get-openapi.md
-- name: AWS Simple Email Service API
-  x-api-slug: aws-simple-email-service-api
-  description: Amazon Simple Email Service (Amazon SES) is a cost-effective email
-    service built on the reliable and scalable infrastructure that Amazon.com developed
-    to serve its own customer base. With Amazon SES, you can send and receive email
-    with no required minimum commitments &ndash; you pay as you go, and you only pay
-    for what you use.
+- name: AWS Simple Email Service API - Get Send Statistics
+  x-api-slug: actiongetsendstatistics-get
+  description: Returns the user's sending statistics.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
   humanURL: https://aws.amazon.com/ses/
   baseURL: :///
-  tags: Statistics
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/aws-simple-email-service/actiongetsendstatistics-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/aws-simple-email-service/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/aws-simple-email-service/actiongetsendstatistics-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.shield.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.simple.email.service.stack.network
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-SES
 - type: x-documentation

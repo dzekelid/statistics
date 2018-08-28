@@ -7,121 +7,90 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Statistics
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Xignite Global Historical Get Global Historical Statistics
-  x-api-slug: xignite-global-historical
+- name: Xignite Global Historical - Get Global Historical Statistics
+  x-api-slug: getglobalhistoricalstatistics-get
   description: Returns Global Historical statistics for a security. For more information,
     go to http://www.xignite.com/
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetGlobalHistoricalStatistics
-  tags: Market Data,Global, Historical, Statistics
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/xignite/getglobalhistoricalstatistics-get-openapi.md
-- name: Xignite Global Historical
-  x-api-slug: xignite-global-historical
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
-  tags: Statistics
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/xignite/openapi.md
-- name: Xignite Global Master Get Master Statistics By Exchange
-  x-api-slug: xignite-global-master
+- name: Xignite Global Master - Get Master Statistics By Exchange
+  x-api-slug: getmasterstatisticsbyexchange-get
   description: Get statistical information about exchanges.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalmaster.xignite.com/xglobalmaster.json/XigniteGlobalMaster//GetMasterStatisticsByExchange
-  tags: Master, Statistics, Exchange
+  baseURL: https://globalmaster.xignite.com/xglobalmaster.json/XigniteGlobalMaster
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/xignite/getmasterstatisticsbyexchange-get-openapi.md
-- name: Xignite Global Master
-  x-api-slug: xignite-global-master
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalmaster.xignite.com/xglobalmaster.json/XigniteGlobalMaster
-  tags: Statistics
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/xignite/openapi.md
-- name: Xignite Historical Get Historical Statistics
-  x-api-slug: xignite-historical
+- name: Xignite Historical - Get Historical Statistics
+  x-api-slug: gethistoricalstatistics-get
   description: Returns Historical statistics for a security. For more information,
     go to http://www.xignite.com/
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalStatistics
-  tags: Market Data,Historical, Statistics
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/xignite/gethistoricalstatistics-get-openapi.md
-- name: Xignite Historical
-  x-api-slug: xignite-historical
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
-  tags: Statistics
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/xignite/openapi.md
-- name: Xignite Rates Get Rate Statistics
-  x-api-slug: xignite-rates
+- name: Xignite Rates - Get Rate Statistics
+  x-api-slug: getratestatistics-get
   description: Returns statistics for available rates.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetRateStatistics
-  tags: Market Data,Rate, Statistics
+  baseURL: https://www.xignite.com/xRates.json/XigniteRates
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/xignite/getratestatistics-get-openapi.md
-- name: Xignite Rates
-  x-api-slug: xignite-rates
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates
-  tags: Statistics
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/xignite/openapi.md
-- name: Xignite Statistics Get Topic Statistics
-  x-api-slug: xignite-statistics
+- name: Xignite Statistics - Get Topic Statistics
+  x-api-slug: gettopicstatistics-get
   description: Get statistics for a topic and a period.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xStatistics.json/XigniteStatistics//GetTopicStatistics
-  tags: Market Data,Topic, Statistics
+  baseURL: https://www.xignite.com/xStatistics.json/XigniteStatistics
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/xignite/gettopicstatistics-get-openapi.md
-- name: Xignite Statistics
-  x-api-slug: xignite-statistics
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xStatistics.json/XigniteStatistics
-  tags: Statistics
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statistics/master/_listings/xignite/openapi.md
 x-common:
 - type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
+- type: x-api-gallery
+  url: http://xibo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://xignite.stack.network
 - type: x-base
   url: http://globalmaster.xignite.com
 - type: x-case-studies

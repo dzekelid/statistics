@@ -122,6 +122,28 @@ paths:
       - Urls
       - List
       - Type
+    parameters:
+      summary: Parameters Analyses Username Project Slug Analysis Slug Crawl Statistics
+        Urls List Type
+      description: Parameters analyses username project slug analysis slug crawl statistics
+        urls list type.
+      operationId: parametersAnalysesUsernameProjectSlugAnalysisSlugCrawlStatisticsUrlsListType
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugcrawl-statisticsurlslist-type-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Crawl
+      - Statistics
+      - Urls
+      - List
+      - Type
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

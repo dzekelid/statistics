@@ -1,12 +1,9 @@
----
 swagger: "2.0"
 x-collection-name: Mattermost
 x-complete: 1
 info:
-  title: Mattermost API Reference
-  description: -api-v4-is-stable-with-the-mattermost-server-4-0-release--api-v3-was-deprecated-on-january-16th-2018-and-scheduled-for-removal-in-mattermost-v5-0--details-heretagapiv3deprecation--looking-for-the-api-v3-reference-it-has-moved-herehttpsapi-mattermost-comv3-
-  termsOfService: https://about.mattermost.com/default-terms/
-  version: 4.0.0
+  title: Mattermost
+  version: 1.0.0
 host: your-mattermost-url.com
 basePath: /api/v4
 schemes:
@@ -35,4 +32,22 @@ paths:
       tags:
       - Channel
       - Statistics
----
+  /teams/{team_id}/stats:
+    get:
+      summary: Get a team stats
+      description: |-
+        Get a team stats on the system.
+        ##### Permissions
+        Must be authenticated and have the `view_team` permission.
+      operationId: get-a-team-stats-on-the-system-permissionsmust-be-authenticated-and-have-the-view-team-permission
+      x-api-path-slug: teamsteam-idstats-get
+      parameters:
+      - in: path
+        name: team_id
+        description: Team GUID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Team
+      - Stats

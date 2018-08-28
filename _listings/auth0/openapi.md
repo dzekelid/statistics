@@ -1,13 +1,11 @@
----
 swagger: "2.0"
 x-collection-name: Auth0
 x-complete: 1
 info:
-  title: Auth0 API
-  description: auth0-exposes-two-apis-for-developers-to-consume-in-their-applications
-  version: 1.0.0
+  title: Auth0 Users API
+  version: v1
 host: login.auth0.com
-basePath: api/v2/
+basePath: /users
 schemes:
 - http
 produces:
@@ -45,4 +43,35 @@ paths:
       tags:
       - Statistics
       - Daily
----
+  /api/v2/stats/active-users:
+    get:
+      summary: Get Active Users
+      description: Gets the active users count (logged in during the last 30 days).
+      operationId: get_active-users
+      x-api-path-slug: apiv2statsactiveusers-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Stats
+      - Active
+      - Users
+  /api/v2/stats/daily:
+    get:
+      summary: Get Daily Stats
+      description: Gets the daily stats for a particular period.
+      operationId: get_daily
+      x-api-path-slug: apiv2statsdaily-get
+      parameters:
+      - in: query
+        name: from
+        description: The first day of the period (inclusive) in YYYYMMDD format
+      - in: query
+        name: to
+        description: The last day of the period (inclusive) in YYYYMMDD format
+      responses:
+        200:
+          description: OK
+      tags:
+      - Stats
+      - Daily

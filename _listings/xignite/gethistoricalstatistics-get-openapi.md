@@ -16,6 +16,44 @@ produces:
 consumes:
 - application/json
 paths:
+  /GetGlobalHistoricalStatistics:
+    get:
+      summary: Get Global Historical Statistics
+      description: Returns Global Historical statistics for a security. For more information,
+        go to http://www.xignite.com/
+      operationId: postGetglobalhistoricalstatistics
+      x-api-path-slug: getglobalhistoricalstatistics-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Global
+      - Historical
+      - Statistics
+  /GetMasterStatisticsByExchange:
+    get:
+      summary: Get Master Statistics By Exchange
+      description: Get statistical information about exchanges.
+      operationId: GetMasterStatisticsByExchange
+      x-api-path-slug: getmasterstatisticsbyexchange-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Master
+      - Statistics
+      - Exchange
   /GetHistoricalStatistics:
     get:
       summary: Get Historical Statistics
